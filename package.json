@@ -56,6 +56,8 @@
     "@akijoey/eslint-config": "latest",
     "@akijoey/prettier-config": "latest",
     "@akijoey/stylelint-config": "latest",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@types/webpack-dev-middleware": "^3.7.2",
     "@types/webpack-hot-middleware": "^2.25.3",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
@@ -70,9 +72,13 @@
     "webpack-dev-middleware": "^4.0.2",
     "webpack-hot-middleware": "^2.25.0"
   },
+  "commitlint": {
+    "extends": "@commitlint/config-conventional"
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
