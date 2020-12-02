@@ -1,5 +1,5 @@
 // .stylelintrc.js
 
 module.exports = {
-  extends: "@akijoey/stylelint-config",
-};
+  extends: '@akijoey/stylelint-config'
+}

@@ -9,7 +9,8 @@
     "lint:script": "eslint --ignore-path .gitignore .",
     "lint:style": "stylelint -i .gitignore **/*.{scss,sass,css}",
     "lint": "npm run lint:script && npm run lint:style",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "prettier": "prettier -w ."
   },
   "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
   "license": "MIT",
@@ -72,6 +73,7 @@
     "webpack-dev-middleware": "^4.0.2",
     "webpack-hot-middleware": "^2.25.0"
   },
+  "prettier": "@akijoey/prettier-config",
   "commitlint": {
     "extends": "@commitlint/config-conventional"
   },
