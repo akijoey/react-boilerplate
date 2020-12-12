@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
-const App = () => {
+import Logo from './components/logo'
+
+const App = (): ReactElement => {
   return (
     <div className="app">
-      react app
+      <Logo />
     </div>
   )
 }
