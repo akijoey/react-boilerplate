@@ -2,7 +2,7 @@
 
 [![license][license-image]][license-url]
 
-A starter template for typescript and react.
+A starter template for react with typescript.
 
 ## Usage
 

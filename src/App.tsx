@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 
-import Logo from './components/logo'
+import Logo from '@/components/logo'
 
 const App = (): ReactElement => {
   return (

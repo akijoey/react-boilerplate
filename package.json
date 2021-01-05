@@ -1,8 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "A typescript boilerplate for react.",
-  "main": "index.js",
+  "description": "A starter template for react with typescript.",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

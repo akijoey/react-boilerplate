@@ -17,7 +17,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
       // path map
       "@/*": ["./*"]
@@ -33,6 +33,9 @@
 
     /* Bablel Ineffective */
     "target": "ES2019",
-    "module": "commonjs"
+    "module": "commonjs",
+
+    /* Types Reference */
+    "types": ["@akijoey/react-scripts"]
   }
 }
