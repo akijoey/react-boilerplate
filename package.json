@@ -9,7 +9,7 @@
     "lint:style": "stylelint -i .gitignore **/*.{scss,sass,css}",
     "lint": "npm run lint:script && npm run lint:style",
     "test": "npm run lint",
-    "prettier": "prettier -w ."
+    "format": "prettier -w ."
   },
   "author": "AkiJoey <akijoey@akijoey.com> (https://akijoey.com)",
   "license": "MIT",
