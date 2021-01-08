@@ -8,7 +8,8 @@ module.exports = {
     'prettier/react'
   ],
   parserOptions: {
-    project: 'tsconfig.json'
+    project: 'tsconfig.json',
+    tsconfigRootDir: __dirname
   },
   plugins: ['react']
 }
