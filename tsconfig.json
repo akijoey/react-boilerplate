@@ -1,41 +1,30 @@
 {
+  "exclude": ["dist"],
   "compilerOptions": {
-    /* Basic Options */
-    "jsx": "react",
+    /* Project Options */
+    "allowJs": true,
+    "declaration": true,
     "isolatedModules": true,
-
-    /* Strict Type-Checking Options */
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "ES2019",
+    "outDir": "lib",
+    /* Strict Checks */
     "strict": true,
-
-    /* Additional Checks */
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-
-    /* Module Resolution Options */
-    "moduleResolution": "node",
+    /* Module Resolution */
+    "baseUrl": "./",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "baseUrl": "./src",
+    "moduleResolution": "node",
     "paths": {
-      // path map
-      "@/*": ["./*"]
+      "@/*": ["src/*"]
     },
-
-    /* Experimental Options */
+    "types": ["@akijoey/react-scripts"],
+    /* Experimental */
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-
-    /* Advanced Options */
+    /* Advanced */
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-
-    /* Bablel Ineffective */
-    "target": "ES2019",
-    "module": "commonjs",
-
-    /* Types Reference */
-    "types": ["@akijoey/react-scripts"]
+    "resolveJsonModule": true,
+    "skipLibCheck": true
   }
 }
