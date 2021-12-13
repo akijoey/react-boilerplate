@@ -13,4 +13,4 @@ A starter template for react with typescript.
 [MIT][license-url] © AkiJoey
 
 [license-image]: https://img.shields.io/github/license/akijoey/react-boilerplate
-[license-url]: https://github.com/akijoey/react-boilerplate/blob/master/LICENSE
+[license-url]: https://github.com/akijoey/react-boilerplate/blob/main/LICENSE
