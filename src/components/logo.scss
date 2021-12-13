@@ -23,14 +23,15 @@ img {
   from {
     transform: rotate(0);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 a {
-  color: #007acc;
   font-weight: 500;
+  color: #007acc;
   text-decoration: none;
   transition: 0.3s;
 }
